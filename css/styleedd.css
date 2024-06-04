@@ -191,3 +191,9 @@ h2{
     background-color: white;
    
 }
+
+#Infoo{
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+}

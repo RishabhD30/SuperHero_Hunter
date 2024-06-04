@@ -32,7 +32,7 @@ function fetchedData(res){
                 <img src=${e.image.url} alt=''>
                 <div id='name'>
                     <p style="color:black">${e.name}</p>
-                    <a href="details.html?id=${e.id}">More Info</a>
+                    <a id="Infoo" href="details.html?id=${e.id}">More Info</a>
                 </div>
                 <button id="throwingID" onclick="add(${e.id})">Fav++</button>
             </div>`
